@@ -15,4 +15,4 @@ def home():
 asgi_app = WsgiToAsgi(app)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
